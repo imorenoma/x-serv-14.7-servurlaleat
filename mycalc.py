@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 
-import random
+
 import webapp
 import operator
 
-dic={"sumar":operator.add,
+dic={"sumar": operator.add,
      "restar": operator.sub}
 
 class Calc(webapp.webApp):
